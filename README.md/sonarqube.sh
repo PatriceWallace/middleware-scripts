@@ -19,8 +19,8 @@ echo "system starting Sonarqube now..."
 sleep 1
 echo "System in the process of retrieving current ip address..."
 sleep 2
-echo "Below is your IP Address : "
-sudo ifconfig | grep 192.
+echo "Below is your IP Address :
+echo  "192.168.56.33"
 
 
 
@@ -31,5 +31,4 @@ sudo ifconfig | grep 192.
 #Proceed by running the program again
 
 #sudo firewall-cmd --permanent --add-port=9000/tcp
-#sudo firewall-cmd --reload
-~                         
+#sudo firewall-cmd --reload     
